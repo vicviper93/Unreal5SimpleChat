@@ -3,6 +3,16 @@
 	"EngineAssociation": "{DDBA3E12-4B7E-7524-E4D6-48B44E843098}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SampleChat",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
